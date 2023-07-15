@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Omnifood</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="#header" class="header__logo__brand">Matias</a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Hur det fungerar</a></li>
+          <li><a class="main-nav-link" href="#">Pris</a></li>
+          <li><a class="main-nav-link" href="#">Projekt</a></li>
+          <li><a class="main-nav-link" href="#">Kontakta Mig</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              WordPress-utvecklare som skapar kraftfulla och anpassade
+              webbplatser.
+            </h1>
+            <p class="hero-description">
+              Jag är Matias, en WordPress-webbutvecklare som skapar
+              webblösningar för små och mellanstora företag. Med skräddarsydda
+              teman och kraftfulla funktioner hjälper jag företag att växa
+              online. Låt mig bygga en imponerande webbplats för dig.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Start eating well</a
+            >
+            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/user.png"
+              class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how">
+        <div class="container">
+          <span class="subheading">Hur det fungerar</span>
+          <h2 class="heading-secondary">Få en offert på 3 enkla steg</h2>
+        </div>
+
+        <div class="container grid grid--3-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Berätta för mig vad du vill ha</h3>
+            <p class="step-description">
+              Jag börjar med att ha en noggrann diskussion för att förstå dina
+              behov, mål och önskemål för ditt webbutvecklingsprojekt. Jag
+              samlar in all relevant information om projektets omfattning,
+              funktionalitet och designpreferenser.
+            </p>
+          </div>
+
+          <!-- <div class="step-img-box">
+            <img
+              src="img/app/app-screen-1.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div> -->
+
+          <!-- STEP 02 -->
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Kostnadsuppskattning</h3>
+            <p class="step-description">
+              Jag använder den insamlade informationen för att skapa en
+              skräddarsydd lösning som passar dina specifika behov. Vi
+              analyserar och planerar projektet och uppskattar kostnaden baserat
+              på arbetskraft, resurser och eventuella externa kostnader.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Presentation av offert</h3>
+            <p class="step-description">
+              Vi presenterar vår offert i detalj och går igenom varje aspekt för
+              att säkerställa att du är helt nöjd. Efter att du har granskat och
+              godkänt offerten skriver vi det formella avtalet och är redo att
+              påbörja webbutvecklingsprojektet. &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp;
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Paket Pris</span>
+          <h2 class="heading-secondary">
+            Jag erbjuder 2 exklusiva paket priser!
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>nu</span>4999:-</p>
+              <p class="plan-text">Fasta priser inga avgifter.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>4 sidor eller one page</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Koppla Google Analytics</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Komigång Nu</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price"><span>nu</span>13999:-</p>
+              <p class="plan-text">Fasta priser inga avgifter.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>8 sidor+ eller one page</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Koppla Google Analytics</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Nöjd kundgaranti!</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Kom igång nu</a>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Båda paketen innehåller:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Wordpress hemsida</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Mobilanpassad</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Sökordsptimerad</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Unik Design</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Kontakt formulär</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Egendomäin</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Sätta upp webbhotell</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Google Maps Kartor</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">WEBBUTVECKLING I WORDPRESS</p>
+            <p class="feature-text">
+              Jag skapar funktionella WordPress-hemsidor som hjälper företag att
+              växa. Med anpassade teman, optimerade för dina mål, skapar jag
+              responsiva webbplatser som fungerar smidigt på alla enheter.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">UNDERHÅLL & SUPPORT</p>
+            <p class="feature-text">
+              Jag erbjuder regelbundet underhåll av din hemsida med backup,
+              uppdateringar av WordPress och plugins. Jag erbjuder även support
+              och ger tips om WordPress, webbhotell, domäner och e-post för att
+              hjälpa dig att få ut det mesta av din webbplats.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">SÖKOPTIMERING (SEO)</p>
+            <p class="feature-text">
+              Jag analyserar och förbättrar hemsidor ur ett tekniskt perspektiv
+              för att öka deras ranking. SEO är en kostnadseffektiv och
+              långsiktig lösning för att driva tillväxt för företag. Investering
+              i sökoptimering ger ökad synlighet, fler leads och ökade intäkter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="container">
+          <span class="subheading margin-top-md">Projekt</span>
+          <h2 class="heading-secondary">Några Projekt jag skapat</h2>
+          <div class="gallery">
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-1.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+              <!-- <figcaption>Caption</figcaption> -->
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-2.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-3.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-4.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-5.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="img/gallery/gallery-6.jpg"
+                alt="Photo of beautifully
+            arranged food"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Kontakta Mig</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <textarea
+                  class="text-area"
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 200px"
+                ></textarea>
+
+                <button class="btn btn--form">Skicka Email</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <!-- <div
+                class="cta-img-box"
+                role="img"
+                aria-label="Woman enjoying food"
+              ></div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <div class="header__logo">
+            <a href="#header" class="header__logo__brand">Matias</a>
+          </div>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Omnifood</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
