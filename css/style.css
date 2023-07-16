@@ -515,7 +515,7 @@ $green-900: #064e3b; */
 }
 
 .blogs {
-  padding: 8rem 0;
+  margin: 0 auto;
 }
 .blogs__card {
   width: 100%;
