@@ -207,7 +207,7 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #e7f8f2;
 
   /* border: 3px solid #fff; */
 
@@ -268,7 +268,7 @@ body {
   outline: none;
   /* outline: 4px dotted #e67e22; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(#e7f8f279);
 }
 
 /* HELPER/SETTINGS CLASSES */
