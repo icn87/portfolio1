@@ -290,7 +290,7 @@
     grid-row: 1;
   }
   .blogs {
-    width: 80%;
+    max-width: 88%;
   }
 }
 
